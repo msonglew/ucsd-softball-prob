@@ -1,0 +1,30 @@
+body {
+  font: 100%/1.5 system-ui;
+  display: flex;
+  flex-flow: column;
+  max-width: 80em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1em;
+}
+
+nav {
+  display:flex;
+  justify-content: space-evenly;
+
+  margin-bottom: 15px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom-color: var(--border-color);
+
+  ul {
+    display: contents;
+  }
+  
+  li {
+    display: contents;
+  }
+
+}
